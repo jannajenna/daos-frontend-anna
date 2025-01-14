@@ -6,7 +6,7 @@ interface DateInputProps {
 }
 
 const DateInput: React.FC<DateInputProps> = ({ placeholder }) => {
-  return <input type="date" className="form-field" placeholder={placeholder} />;
+  return <input type="date" className="input dateInput" placeholder={placeholder} />;
 };
 
 export default DateInput;

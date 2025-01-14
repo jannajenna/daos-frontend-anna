@@ -39,7 +39,7 @@
   margin-bottom: var(--spacing-sm);
 }
 
-/* Buttons */
+/* Button Group */
 .buttonGroup {
   display: flex;
   flex-direction: column;

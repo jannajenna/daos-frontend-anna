@@ -8,7 +8,7 @@ interface SelectInputProps {
 
 const SelectInput: React.FC<SelectInputProps> = ({ options, placeholder }) => {
   return (
-    <select className="form-field">
+    <select className="input selectInput">
       <option value="" disabled selected hidden>
         {placeholder}
       </option>

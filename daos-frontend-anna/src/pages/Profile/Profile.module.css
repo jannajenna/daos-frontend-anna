@@ -61,7 +61,7 @@
   color: var(--color-gray);
 }
 
-/* Button Section */
+/* Edit Profile Button */
 .editProfileButton {
   width: 100%;
   text-align: center;
@@ -94,103 +94,4 @@
   font-size: var(--font-size-h3);
   color: var(--color-primary-dark-blue);
   margin-bottom: var(--spacing-sm);
-}
-
-.addButton {
-  font-size: var(--font-size-small);
-  color: var(--color-primary-dark-blue);
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-/* Instrument Section */
-.instrumentList {
-  margin-bottom: var(--spacing-lg);
-}
-
-.instrumentItem {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: var(--color-light-gray);
-  padding: var(--spacing-sm);
-  border-radius: var(--border-radius);
-  margin-bottom: var(--spacing-sm);
-}
-
-.instrumentDetails {
-  display: flex;
-  gap: var(--spacing-sm);
-  flex-wrap: wrap;
-}
-
-.instrumentName {
-  font-family: var(--font-primary);
-  font-size: var(--font-size-body);
-  color: var(--color-dark-gray);
-}
-
-.instrumentTags {
-  display: flex;
-  gap: var(--spacing-xs);
-  flex-wrap: wrap;
-}
-
-.tag {
-  font-size: var(--font-size-small);
-  color: var(--color-white);
-  background-color: var(--color-primary-dark-blue);
-  padding: var(--spacing-xs) var(--spacing-sm);
-  border-radius: var(--border-radius);
-}
-
-.experienceBadge {
-  font-size: var(--font-size-small);
-  font-weight: bold;
-  color: var(--color-white);
-  background-color: var(--color-primary-red);
-  padding: var(--spacing-xs) var(--spacing-sm);
-  border-radius: var(--border-radius);
-}
-
-/* Ensemble and Post Sections */
-.cardList {
-  margin-bottom: var(--spacing-lg);
-}
-
-.card {
-  display: flex;
-  gap: var(--spacing-md);
-  padding: var(--spacing-md);
-  background-color: var(--color-light-gray);
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
-  margin-bottom: var(--spacing-md);
-}
-
-.cardImage {
-  width: 80px;
-  height: 80px;
-  background-color: var(--color-dark-gray);
-  border-radius: var(--border-radius);
-  background-size: cover;
-  background-position: center;
-}
-
-.cardDetails {
-  flex-grow: 1;
-}
-
-.cardTitle {
-  font-family: var(--font-primary);
-  font-size: var(--font-size-body);
-  color: var(--color-primary-dark-blue);
-  margin-bottom: var(--spacing-xs);
-}
-
-.cardDescription {
-  font-size: var(--font-size-small);
-  color: var(--color-gray);
 }
